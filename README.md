@@ -1,60 +1,121 @@
-# Pump.Fun Bundler - Pumpfun-Pumpswap-Migration-Bot
+# 🚀 Pump.Fun Bundler (PumpSwap Migration Bot)
 
-**Pump.Fun Bundler(Pumpfun Pumpswap Migration Bot)** – your ultimate solution for bundling on Pump.Fun with advanced profile creation and anti-bubble maps + migrate pumpswap + buy on pumpswap within one transaction!
+**Pump.Fun Bundler** is an advanced tooling solution for automating token launches, bundling, and onchain migration between **Pump.Fun** and **PumpSwap** — enabling **buy**, **migrate**, and **sell** operations within a single transaction.
 
-I have updated this to migrate to **Pumpswap** so can charge bundling on **Pumpswap** and buy token on pumpswap with bundle.
+Whether you're bundling wallets, migrating to PumpSwap, or automating trading strategies — this tool handles it all, including wallet profile generation, LUT creation, complex sell logic, and real-time performance optimization.
 
-## Contact
+---
 
-For more details or need help, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
+## 📬 Contact
 
-## Sample tx
+For setup assistance or collaboration inquiries:
 
-- [Pumpfun-pumpswap migration tx](https://solscan.io/tx/2JDAAvyPnxVKKrn9HTXH6yJVwANMQivFFFZqsiMkSBYAop7qsUXgg29SFP4NzjmbRBmhzV4hiPGapZuUnmnEFqMa)
+* Telegram: [@kairosstroud1205](https://t.me/kairosstroud1205)
+* Twitter / X: [@kairos1205](https://x.com/kairos1205)
 
-- [pumpfun updated recently so i have update it with jito](https://explorer.jito.wtf/bundle/bee59fbe77afc3ce1448bd7c4857b31718ba148dc63020d230ec043568126996)
-  
-## Features
+---
 
-### Seamless UI
-- **Intuitive User Interface:** Experience a straightforward and completely automatic user interface designed for ease of use and efficiency.
+## 🧪 Sample Transactions
 
-### Advanced Profile Creation
-- **Random Profiles:** Automatically generate profiles for each wallet to ensure maximum authenticity, with each wallet holding different random tokens.
+* **Pump.Fun → PumpSwap Migration Example:**
+  [Solscan TX](https://solscan.io/tx/2JDAAvyPnxVKKrn9HTXH6yJVwANMQivFFFZqsiMkSBYAop7qsUXgg29SFP4NzjmbRBmhzV4hiPGapZuUnmnEFqMa)
 
-### Custom LUT Program
-- **Custom LUT Program:** Leverage our custom Look-Up Table (LUT) program to optimize your launch strategies.
+* **Latest Jito Bundle Update (With PumpFun changes):**
+  [Jito Explorer TX](https://explorer.jito.wtf/bundle/bee59fbe77afc3ce1448bd7c4857b31718ba148dc63020d230ec043568126996)
 
-### Automatic Supply Deviation
-- **Supply Management:** Automatically manage supply deviations for smooth and efficient launches.
+---
 
-### Custom Configurable Buyers
-- **Configurable Buyers:** Customize and configure up to 20 different keypair buyers for personalized launch strategies.
+## ⚙️ Key Features
 
-### Unmatched Performance
-- **Performance and Speed:** Benefit from unparalleled performance, stability, and speed with our tool.
+### 🧑‍💻 Seamless & Automated Interface
 
-### Custom Onchain Program
-- **Onchain Integration:** Seamlessly integrate and operate with our bespoke onchain program.
+* **No-code UI** with automatic orchestration of all launch components.
+* Launch tokens, buy, migrate, and sell — all in one go.
 
-### Complex Sell Strategies
-- **Sell Strategies:** Implement complex percentage-based sell strategies across all keypairs simultaneously.
+### 🧠 Smart Profile Generation
 
-### And Much More!
-- Discover even more features designed to optimize your launch experience and help you profit from your Pump.Fun launches.
+* **Randomized Wallet Profiles**
+  Each keypair is assigned unique tokens to simulate authentic holder behavior.
 
-## Overview
+* **Up to 20 Custom Buyer Wallets**
+  Configure how each buyer participates in the launch.
 
-- Creating wallets to buy tokens from the pool you creating.
+### 📦 PumpSwap Migration Support
 
-- Creating Lookuptable
+* Automatically migrate from **Pump.Fun** to **PumpSwap** and **execute buys** on PumpSwap via a bundled transaction.
 
-- Extending Lookuptable and simulations of each transactions to bundle
+* Enable seamless **multi-wallet buy** and **sell executions** in PumpSwap.
 
-- Bundle createPool with the token of metadata transaction and 3 transactions buying from 28 wallets.
+### 📚 Custom LUT (Look-Up Table) Program
 
-- Sell tokens at once from 24 wallets using bundle when you want
+* Automatically create and extend onchain LUTs for efficient TX bundling.
+* Includes simulation of each transaction prior to bundling.
 
-- Gathering Sol from 24 wallets you bundle buy and sell
+### 📊 Configurable Tokenomics & Launch Settings
 
+* **Supply Deviation Engine**
+  Automatically vary supply across launches for anti-bot behavior.
 
+* **Custom Sell Strategies**
+  Execute **complex percentage-based sell orders** across all wallets.
+
+* **Gather SOL from All Wallets**
+  Reclaim and manage profits across the wallets used during launch/sell.
+
+### ⚡ High Performance Engine
+
+* **Bundle 3+ buy transactions from 28 wallets**, along with metadata and pool creation in one TX.
+
+* **Sell instantly from 24 wallets** when desired via bundled execution.
+
+* Uses **Jito bundling** for efficient inclusion and priority handling.
+
+---
+
+## 🧭 How It Works
+
+> **End-to-end workflow** from launch to sell, automated.
+
+1. **Wallet Creation**
+   Generate and assign wallets (keypairs) for bundling and buying.
+
+2. **LUT Management**
+
+   * Create onchain **Look-Up Table (LUT)**
+   * Extend LUT with relevant program addresses
+   * Simulate TXs for bundle assembly
+
+3. **Pool Launch (Bundled)**
+
+   * Create metadata + token pool
+   * Include 3-5 buy transactions (up to 28 wallets)
+   * Finalize and submit bundle
+
+4. **Token Selling (Optional)**
+
+   * Sell tokens from 24 wallets simultaneously
+   * Optional: gather proceeds into main wallet
+
+---
+
+## 🧰 Use Cases
+
+* 🔁 **Auto-migrating token from Pump.Fun to PumpSwap**
+* 👨‍👩‍👧 **Simulated holder behavior** for anti-snipe/anti-bot protection
+* 📈 **Coordinated buys/sells** across wallet sets
+* 🧠 **Advanced wallet bundling strategies** with metadata creation
+
+---
+
+## 🧩 Future Plans & Extensibility
+
+* CLI version for power users
+* Multi-chain bundling (Solana-only currently)
+* Dashboard for managing historical launches
+* Integration with Telegram bots or webhooks
+
+---
+
+## 📄 License
+
+This project is currently closed-source and intended for private or commercial use. Contact the developer for licensing and deployment options.
